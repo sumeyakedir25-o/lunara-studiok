@@ -565,31 +565,6 @@ font-size:14px;
 #topBtn:hover{
     transform:scale(1.1);
 }
-/*LOADING SCREEN */
-.loader{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100vh;
-    background:#0a0a0a;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    z-index:99999;
-    animation:fadeOut 1s ease 2s forwards;
-}
-.loader h1{
-    color:gold;
-    font-size:40px;
-    letter-spacing:5px;
-}
-@keyframes fadeOut{
-    to{
-        opacity:0;
-        visibility:hidden;
-    }
-}
 /* THEME BUTTON */
 #themeToggle{
     background:none;
