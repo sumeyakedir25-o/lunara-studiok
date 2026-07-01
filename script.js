@@ -182,12 +182,6 @@ topBtn.addEventListener("click", () => {
         behavior: "smooth"
     });
 });
-window.addEventListener("load", () => {
-    const loader = document.getElementById("loader");
-    setTimeout(() => {
-        loader.style.display = "none";
-    }, 2500);
-});
 const themeToggle = document.getElementById("themeToggle");
 
 themeToggle.addEventListener("click", () => {
